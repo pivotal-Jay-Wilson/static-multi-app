@@ -1,0 +1,10 @@
+---
+applications:
+- name: nginx-test
+  disk_quota: 512M
+  instances: 1
+  memory: 512M
+  random-route: true
+  # buildpacks:
+  # - https://github.com/cloudfoundry/staticfile-buildpack
+
